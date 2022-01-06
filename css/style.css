@@ -3,19 +3,25 @@ body{
     margin: 0px;
 }
 h1{
-    
-    line-height: 35px;
+    font-size: 40px;
 }
 .f-size{
     font-size: 50px;
+    line-height: 35px;
+    
+}
+p{
+    font-size: 18px;
 }
 .first-sec{
     display: flex;
     margin: 8%;
     
+    
 }
 .top-sec{
     width: 50%;
+    
     
 }
 .top-sec img{
@@ -36,6 +42,7 @@ h1{
     color: orange;
 }
 a{
+    color: white;
     text-decoration: none;
     
 }
@@ -101,36 +108,36 @@ a:hover{
 
 .contact{
     width: 80%;
-    background-color: thistle;
+    background-color: rgb(235, 227, 235);
     background-size: cover;
     margin: 10%;
     border-radius: 10px;
 }
 
 
+
 .contact h1{
     text-align: center;
     padding-top: 30px;
+    color: tomato;
+    font-size: 50px;
 
 }
 input[type=text], select, textarea{
     width: 100%;
     padding: 10px;
-    background-color: rgb(228, 227, 202);
     
     
 }
 input[type=mail]{
     width: 100%;
     padding: 10px;
-    color: white;
-    background-color: rgb(228, 227, 202);
+    
 }
 input[type=number]{
     width: 100%;
     padding: 10px;
-    color: white;
-    background-color: rgb(228, 227, 202);
+    
 }
 input[type=submit]{
     width: 20%;
@@ -170,7 +177,6 @@ input[type=submit]:hover{
 .helpline{
     padding: 10px 100px 10px 100px;
     margin: 1%;
-    color: white;
     font-size: 25px;
 
 }
@@ -188,6 +194,7 @@ input[type=submit]:hover{
     border-radius: 40px;
     transition: 1s;
 }
+
 footer{
     font-family: cursive;
     width: 100%;
@@ -196,6 +203,10 @@ footer{
     text-align: center;
     padding: 10px;
 }
-.helpline a{
-    color: white;
+footer a{
+    color: red ;
+}
+footer a:hover{
+    background-color: green;
+
 }

@@ -1,59 +1,73 @@
+    /*Main Body CSS Start*/
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     text-align: justify;
 }
+    /*Main Body CSS Start*/
+
+
+    /*Top Welcome Area & Flex  CSS Start*/
 h1{
     font-size: 40px;
 }
 .f-size{
     font-size: 50px;
     line-height: 35px;
-    
 }
+
 p{
     font-size: 18px;
 }
+
 .first-sec{
     display: flex;
     margin: 8%;
-    
-    
 }
+
 .top-sec{
     width: 50%;
-    
-    
 }
+
 .top-sec img{
     width: 70%;
     padding-left: 100px;
     border-radius: 10%;
-    
 }
+
 .border-left{
-    border-left: 5px solid red;
-    
-    
+    border-left: 5px solid red; 
 }
+
 .border-left h1{
     padding-left: 15px;
 }
+    /*Top Welcome Area & Flex  CSS END*/
+
+
+
+    /*Exta Common Color CSS Start*/
 .orang-color{
     color: orange;
 }
+    /*Exta Common Color CSS End*/
+
+
+
+    /*All Button Link CSS Start*/
 a{
     color: white;
     text-decoration: none;
-    
 }
+
 .link{
     color: white;
     padding: 8px 20px;
-    background-color: rgb(131, 88, 10);
+    background-color: rgb(255, 6, 6);
     border-radius: 10px;
-    
 }
+
 a:hover{
     color: white;
     padding: 8px 20px;
@@ -61,85 +75,95 @@ a:hover{
     border-radius: 10px;
     transition: 1s;
 }
-.mission-sec{
+    /*All Button Link CSS END*/
+
+
+
+    /*Service Section CSS Start*/
+.service-sec{
     width: 100%;
     display: flex;
-
 }
-.mission-head{
+
+.service-head{
     font-size: 50px;
     text-align: center;
 }
-.mission-row{
+
+.service-row{
     margin: 50px;
     padding: 20px;
     border-radius: 20px;
-    
 }
-.mission-row img{
+
+.service-row img{
     width: 40%
-    
 }
+    /*Service Section CSS END*/
+
+
+
+    /*Global Community Area CSS Start*/
 #boxbg-1{
     background-color: rgb(224, 224, 240);
 }
+
 #boxbg-2{
-    background-color: rgb(180, 172, 157);
+    background-color: rgba(240, 231, 233, 0.884);
 }
+
 #boxbg-3{
-    background-color: rgb(212, 155, 155);
+    background-color: rgba(222, 240, 225, 0.801);
 }
-
-
 
 #back-image{
     background-image: url(../images/shapes/shape-1.png);
     background-size: 50%;
     background-position: left;
     background-repeat: no-repeat;
-   
-    
 }
+
 #back-image2{
     background-image: url(../images/shapes/shape-1.png);
     background-size: 25%;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+    /*Global Community Area CSS END*/
 
+
+
+    /*Contact Box Section CSS Start*/
 .contact{
     width: 80%;
-    background-color: rgb(235, 227, 235);
+    background-color: rgb(227, 235, 229);
     background-size: cover;
-    margin: 10%;
+    margin: 8%;
     border-radius: 10px;
 }
-
-
 
 .contact h1{
     text-align: center;
     padding-top: 30px;
     color: tomato;
     font-size: 50px;
-
 }
+
 input[type=text], select, textarea{
     width: 100%;
     padding: 10px;
-    
-    
 }
+
 input[type=mail]{
     width: 100%;
     padding: 10px;
-    
 }
+
 input[type=number]{
     width: 100%;
     padding: 10px;
-    
 }
+
 input[type=submit]{
     width: 20%;
     text-align: center;
@@ -167,25 +191,28 @@ input[type=submit]:hover{
         font-size: 20px;
         background-color: green;
         transition: 1s;
-    }
+}
+    /*Contact Box Section CSS End*/
 
 
+
+    /*Footer Top Heline CSS Start*/
 .footer-top{
     display: flex;
     background-color: red;
-
 }
+
 .helpline{
     padding: 10px 100px 10px 100px;
     margin: 1%;
     font-size: 25px;
-
 }
+
 .helpline img{
     width: 20%;
     float: left;
-    
 }
+
 .helpline img:hover{
     width: 20%;
     float: left;
@@ -195,7 +222,11 @@ input[type=submit]:hover{
     border-radius: 40px;
     transition: 1s;
 }
+    /*Footer Top Heline CSS Start*/
 
+
+
+    /*Footer Area CSS Start*/
 footer{
     font-family: cursive;
     width: 100%;
@@ -204,10 +235,12 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
 footer a{
     color: red ;
 }
+
 footer a:hover{
     background-color: green;
-
 }
+    /*Footer Area CSS END*/

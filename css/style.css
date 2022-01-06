@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    
+    line-height: 35px;
+}
+.f-size{
+    font-size: 50px;
+}
+.welcome-sec{
+    display: flex;
+    margin: 8%;
+    
+}
+.wlc-sec{
+    width: 50%;
+    
+    
+    
+}
+.wlc-sec img{
+    width: 70%;
+    padding-left: 100px;
+}
+.border-left{
+    border-left: 5px solid red;
+    
+    
+}
+.border-left h1{
+    padding-left: 15px;
+}
+.orang-color{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+.link{
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(131, 88, 10);
+    border-radius: 10px;
+    
+}
+a:hover{
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(2, 15, 27);
+    border-radius: 10px;
+    transition: 1s;
+}
+.mission-sec{
+    width: 100%;
+    display: flex;
+
+}
+.mission-head{
+    font-size: 50px;
+    text-align: center;
+}
+.mission-row{
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.mission-row img{
+    width: 40%
+    
+}
+#boxbg-1{
+    background-color: rgb(224, 224, 240);
+}
+#boxbg-2{
+    background-color: rgb(180, 172, 157);
+}
+#boxbg-3{
+    background-color: rgb(212, 155, 155);
+}

@@ -108,12 +108,25 @@ a:hover{
     background-color: rgb(224, 224, 240);
 }
 
+#boxbg-1:hover{
+    background-color: rgb(139, 206, 177);
+}
+
+
 #boxbg-2{
     background-color: rgba(240, 231, 233, 0.884);
 }
 
+#boxbg-2:hover{
+    background-color: rgb(214, 105, 101);
+}
+
 #boxbg-3{
     background-color: rgba(222, 240, 225, 0.801);
+}
+
+#boxbg-3:hover{
+    background-color: rgb(139, 206, 177);
 }
 
 #back-image{

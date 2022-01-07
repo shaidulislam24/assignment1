@@ -1,5 +1,4 @@
     /*Main Body CSS Start*/
-
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -98,7 +97,7 @@ a:hover{
 }
 
 .service-row img{
-    width: 40%
+    width: 40%;
 }
     /*Service Section CSS END*/
 

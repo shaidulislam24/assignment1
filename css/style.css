@@ -64,14 +64,14 @@ a{
 .link{
     color: white;
     padding: 8px 20px;
-    background-color: rgb(255, 6, 6);
+    background-image: linear-gradient(red, rgb(3, 66, 3));
     border-radius: 10px;
 }
 
 a:hover{
     color: white;
     padding: 8px 20px;
-    background-color: rgb(2, 15, 27);
+    background-image: linear-gradient(rgb(99, 4, 4), rgb(18, 100, 18));
     border-radius: 10px;
     transition: 1s;
 }
@@ -93,6 +93,7 @@ a:hover{
 .service-row{
     margin: 50px;
     padding: 20px;
+    box-shadow: 10px 10px 20px gray;
     border-radius: 20px;
 }
 
@@ -134,6 +135,12 @@ a:hover{
 
 
     /*Contact Box Section CSS Start*/
+#shadow-bg{
+    box-shadow: 0px 5px 20px rgb(117, 48, 48);
+}
+hr{
+    border: 2px dotted green;
+}
 .contact{
     width: 80%;
     background-color: rgb(227, 235, 229);
@@ -200,6 +207,8 @@ input[type=submit]:hover{
 .footer-top{
     display: flex;
     background-color: red;
+    border-top: 10px solid green;
+    width: 100%;
 }
 
 .helpline{

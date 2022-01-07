@@ -1,7 +1,7 @@
     /*Main Body CSS Start*/
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    margin: 0%;
     text-align: justify;
 }
     /*Main Body CSS Start*/
@@ -219,26 +219,33 @@ input[type=submit]:hover{
     /*Footer Top Heline CSS Start*/
 .footer-top{
     display: flex;
-    background-color: red;
-    border-top: 10px solid green;
     width: 100%;
+    border-top: 10px solid green;
+    background-color: rgb(247, 0, 0);
 }
 
 .helpline{
-    padding: 10px 100px 10px 100px;
-    margin: 1%;
-    font-size: 25px;
+    width: 50%;
+    margin: 20px 100px 20px 100px;
+    padding: 20px 50px 20px 50px;
+    font-size: 28px;
+    display: inline-flex;
+}
+
+.helpline a{
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .helpline img{
-    width: 20%;
+    width: 30%;
     float: left;
 }
 
 .helpline img:hover{
-    width: 20%;
+    width: 30%;
     float: left;
-    padding: 20px;
+    padding: 10px;
     background-color: turquoise;
     color: white;
     border-radius: 40px;
@@ -255,7 +262,8 @@ footer{
     background-color: rgb(5, 5, 48);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 footer a{

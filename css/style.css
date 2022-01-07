@@ -90,6 +90,7 @@ a:hover{
 }
 
 .service-row{
+    width: 30%;
     margin: 50px;
     padding: 20px;
     box-shadow: 10px 10px 20px gray;
